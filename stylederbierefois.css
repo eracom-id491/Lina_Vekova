@@ -1,0 +1,120 @@
+#menu ul
+{
+margin:0;
+padding:0;
+line-height:30px;
+}
+#menu li
+{
+list-style:none;
+float:left;
+position:relative;
+background-color:#999;
+}
+#menu ul li a
+{
+color:#000;
+text-decoration:none;
+width:150px;
+height:31px;
+display:block;
+text-align:center;
+border:1px solid #000;
+text-shadow: 1px 1px 1px #ff0000;
+}
+#menu ul ul
+{
+position:absolute;
+top:30px;
+visibility:hidden;
+}
+#menu ul li:hover ul
+{
+visibility:visible;
+}
+#menu li:hover
+{
+background-color:#FFF;
+}
+#menu ul li ul a:hover
+{
+color: #FFF;
+background-color:#000;
+}
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+body
+{
+	background: #000;
+	min-height: 200vh;
+}
+header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 40px 100px;
+	z-index: 1000000;
+}
+header.sticky
+{
+	padding: 5px 100px;
+	background: #fff;
+}
+header .logo
+{
+	position: relative;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.6s;
+}
+
+header ul
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+header ul li
+{
+	position: relative;
+	list-style: none;
+}
+header ul li a
+{
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 500px;
+	transition: 0,6s;
+
+}
+.banner{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url(Démongorgon-5 copie.tif);
+	background-size: cover;
+}
+header.stickyul .logo,
+header.stickyul li a
+{
+	color: #000;
+}
